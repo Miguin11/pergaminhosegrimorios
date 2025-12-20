@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Pergaminhos&Grimórios</title>
+        
+        <link rel="icon" href="d20-2.png" type="image/png">
+        
+        <link rel="stylesheet" href="style.css">
+        
+        <script src="script.js"></script>
+        
+        <style>
+            #logo {
+                background-color: #f3f3f3d7;
+                border-radius: 10px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <button id="menuBtn" class="menu-btn">☰</button>
+        
+        <nav id="menu" class="menu">
+            <ul>
+                <li><a href="index.html#des">Destaques</a></li>
+                <li>
+                    <a href="index.html#des">Produtos</a>
+                    <ul class="submenu">
+                        <li><a href="index3.html">Livros</a></li>
+                        <li><a href="index4.html#jogos">RPGs</a></li>
+                        <li><a href="index5.html#acessorios">Acessórios</a></li>
+                        <li><a href="index6.html#download">Materiais para Download</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#$">Colabore</a></li>
+                <li><a href="index.html#contato">Contato</a></li>
+            </ul>
+        </nav>
+        
+        <header id="header">
+            <h1>Pergaminhos&Grimórios</h1>
+            <a href="index.html"><img src="d20-3.png" alt="Logo" id="logo"></a>
+            <a href="index2.html"><Button id="carrinho"><img src="compras.png" id="img"></Button></a>
+        </header>
+
+        <section id="livros">
+            <br><br><br><br><br><br><br>    
+            <h2>Livros</h2>
+            <div id="principal">    
+                <div class="item">
+                    <img src="livro-Carl,o ExploraodordeMasmorras-47,40.webp" alt="Carl,o Explorador de Masmorras">
+                    <p  class="legenda" data-preco="47,00">Carl,o Explorador de Masmorras<br>R$47,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Carl,o Explorador de Masmorras" 
+                    data-preco="47,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                <br>
+                <div class="item">
+                    <img src="livro-d&d-DadoseDragões-104,92.webp" alt="Dados e Dragões">
+                    <p  class="legenda" data-preco="104,00">Dados e Dragões: A História de Dungeons & Dragons<br>R$104,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Dados e Dragões: A História de Dungeons & Dragons" 
+                    data-preco="104,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                <br>
+                <div class="item">
+                    <img src="livro-DragonAge-175,66.webp" alt="Dragon Age">
+                    <p  class="legenda" data-preco="175,00">Dragon Age<br>R$175,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Dragon Age" 
+                    data-preco="175,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                <br>
+                <div class="item">
+                    <img src="livro-SacramentoRpg-89,15.webp" alt="Sacramento RPG">
+                    <p  class="legenda" data-preco="89,00">Sacramento RPG<br>R$89,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Sacramento RPG" 
+                    data-preco="89,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                <br>
+               
+            </div>
+        </section>
+
+        <br><br>
+
+    <footer id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco através dos nossos canais:</p>
+        <p>Gmail: pergaminhosegrimorios@gmail.com</p>                
+        <p>Whatsapp: (34)99876-3326</p>
+        <p>Instagram: @pergaminhosegrimorios</p>
+    </footer>
+    
+    
+    
+    </body>
+</html>
+        

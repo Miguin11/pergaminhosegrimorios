@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Pergaminhos&Grimórios</title>
+        
+        <link rel="icon" href="d20-2.png" type="image/png">
+        
+        <link rel="stylesheet" href="style.css">
+        
+        <script src="script.js"></script>
+        <script>
+            var senhaCorreta = "Pergaminhos&Grimórios";
+            var texto = "Senha: ";
+            var resposta = "";
+
+            while (resposta !== senhaCorreta) {
+            resposta = prompt(texto);
+
+            if (resposta === null) {
+                alert("Operação cancelada.");
+                window.location.href = "index.html";
+                break;
+            }
+
+            if (resposta !== senhaCorreta) {
+                alert("Senha incorreta! Você será redirecionado.");
+                window.location.href = "index.html";
+                break;
+            } else {
+                alert("Bem-vindo à Zona Secreta.");
+                break;
+            }
+            }
+        </script>
+        
+        <style>
+            #logo {
+                background-color: #f3f3f3d7;
+                border-radius: 10px;
+            }
+            a{
+                text-decoration: none;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <button id="menuBtn" class="menu-btn">☰</button>
+        
+        <nav id="menu" class="menu">
+            <ul>
+                <li><a href="index.html#des">Destaques</a></li>
+                <li>
+                    <a href="index.html#des">Produtos</a>
+                    <ul class="submenu">
+                        <li><a href="index3.html">Livros</a></li>
+                        <li><a href="index4.html#jogos">RPGs</a></li>
+                        <li><a href="index5.html#acessorios">Acessórios</a></li>
+                        <li><a href="index6.html#download">Materiais para Download</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#$">Colabore</a></li>
+                <li><a href="index.html#contato">Contato</a></li>
+            </ul>
+        </nav>
+        
+        <header id="header">
+            <h1>Pergaminhos&Grimórios</h1>
+            <a href="index.html"><img src="d20-3.png" alt="Logo" id="logo"></a>
+            <a href="index2.html"><Button id="carrinho"><img src="compras.png" id="img"></Button></a>
+        </header>
+<br><br><br><br><br><br>
+        <h3>Você está na Zona Secreta!</h3>
+        <p>Aqui estão alguns promoções exclusivas para os nossos clientes mais espertos.</p>
+
+        <a href="index2.html">
+        <p  class="legenda" data-preco="-10,0">Desconto<br>R$-10,0</p>
+        <button class="btn-carrinho" 
+        data-nome="Desconto da Zona Secreta" 
+        data-preco="-10,0" 
+        onclick="adicionarCarrinho(this)">
+        Adicionar ao Carrinho
+        </button></a>
+        <br><br>
+        
+        <a href="index2.html">
+        <p  class="legenda" data-preco="-50,0">Desconto<br>R$-50,0</p>
+        <button class="btn-carrinho" 
+        data-nome="Desconto da Zona Secreta" 
+        data-preco="-50,0" 
+        onclick="adicionarCarrinho(this)">
+        Adicionar ao Carrinho
+        </button></a>
+        <br><br>
+        
+        <a href="index2.html"><p  class="legenda" data-preco="-100,0">Desconto<br>R$-100,0</p>
+        <button class="btn-carrinho" 
+        data-nome="Desconto da Zona Secreta" 
+        data-preco="-100,0" 
+        onclick="adicionarCarrinho(this)">
+        Adicionar ao Carrinho
+        </button></a>
+        <br><br>
+    
+        <footer id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco através dos nossos canais:</p>
+        <p>Gmail: pergaminhosegrimorios@gmail.com</p>                
+        <p>Whatsapp: (34)99876-3326</p>
+        <p>Instagram: @pergaminhosegrimorios</p>
+    </footer>
+    
+    
+    
+    </body>
+</html>

@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Pergaminhos&Grimórios</title>
+        
+        <link rel="icon" href="d20-2.png" type="image/png">
+        
+        <link rel="stylesheet" href="style.css">
+        
+        <script src="script.js"></script>
+        
+        <style>
+            #logo {
+                background-color: #f3f3f3d7;
+                border-radius: 10px;
+            }
+            #pagesecret button {
+                background-color: transparent;
+                border: none;
+                width: 30px;
+                height: 30px;
+                cursor: alias;
+            }
+            
+        </style>
+
+    </head>
+
+    <body>
+        <button id="menuBtn" class="menu-btn">☰</button>
+        
+        <nav id="menu" class="menu">
+            <ul>
+                <li><a href="#des">Destaques</a></li>
+                <li>
+                    <a href="#des">Produtos</a>
+                    <ul class="submenu">
+                        <li><a href="index3.html">Livros</a></li>
+                        <li><a href="index4.html">RPGs</a></li>
+                        <li><a href="index5.html">Acessórios</a></li>
+                        <li><a href="index6.html">Materiais para Download</a></li>
+                    </ul>
+                </li>
+                <li><a href="#$">Colabore</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        
+        <header id="header">
+            <h1>Pergaminhos&Grimórios</h1>
+            <a href="index.html"><img src="d20-3.png" alt="Logo" id="logo"></a>
+            <a href="index2.html"><Button id="carrinho"><img src="compras.png" id="img"></Button></a>
+	        <a href="index8.html"><button id="carrinho">Conta</button></a>
+        </header>
+            
+        <main>
+
+            <section id="des">
+                
+                <a href="index7.html" id="pagesecret"><button></button></a>
+                <h2>Destaques</h2>
+                
+                <div id="principal">
+                    
+                <div class="item">
+                    <img src="livro-SacramentoRpg-89,15.webp" alt="Sacramento RPG">
+                    <p  class="legenda" data-preco="89,00">Mapa para RPGs<br>R$ 89,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Sacramento RPG" 
+                    data-preco="89,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                    <br>
+                <div class="item">
+                    <img src="rpg-d&d-BedlaminNeverwinter-451,28.webp" alt="Bedlam in Neverwinter">
+                    <p  class="legenda" data-preco="451,00">Bedlam in Neverwinter<br>R$451,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Bedlam in Neverwinter" 
+                    data-preco="451,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                    <br>
+                <div class="item">
+                    <img src="acessórios-kit126tokens-69,99.webp" alt="Kit 126 Tokens">
+                    <p  class="legenda" data-preco="70,00">Kit 126 Tokens<br>R$70,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Kit 126 Tokens" 
+                    data-preco="70,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                    <br>
+                <div class="item">
+                    <img src="materialdowload-map8-1,50.jpg" alt="Mapa 8">
+                    <p  class="legenda" data-preco="1,00">Mapa 8<br>R$1,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Mapa 8" 
+                    data-preco="1,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                </div>
+            </section>
+                <br>
+
+            <section id="$">
+                <h2>Colabore</h2>
+                <p>Colabore conosco, seja um associado!</p>
+                <p>Venda através da nossa loja, envie pix ou faça uma tranferência bancária para nós.</p>
+                <p>Envie pix para: 12.345.678/0001-95</p>
+            </section>
+            <br><br>
+
+            <footer id="contato">
+                <h2>Contato</h2>
+                <p>Entre em contato conosco através dos nossos canais:</p>
+                <p>Gmail: pergaminhosegrimorios@gmail.com</p>
+                <p>Whatsapp: (34)99876-3326</p>
+                <p>Instagram: @pergaminhosegrimorios</p>
+            </footer>
+            
+        </main>
+    </body>
+    </html>

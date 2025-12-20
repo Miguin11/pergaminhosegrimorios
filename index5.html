@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Pergaminhos&Grimórios</title>
+        
+        <link rel="icon" href="d20-2.png" type="image/png">
+        
+        <link rel="stylesheet" href="style.css">
+        
+        <script src="script.js"></script>
+        
+        <style>
+            #logo {
+                background-color: #f3f3f3d7;
+                border-radius: 10px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <button id="menuBtn" class="menu-btn">☰</button>
+        
+        <nav id="menu" class="menu">
+            <ul>
+                <li><a href="index.html#des">Destaques</a></li>
+                <li>
+                    <a href="index.html#des">Produtos</a>
+                    <ul class="submenu">
+                        <li><a href="index3.html">Livros</a></li>
+                        <li><a href="index4.html#jogos">RPGs</a></li>
+                        <li><a href="index5.html#acessorios">Acessórios</a></li>
+                        <li><a href="index6.html#download">Materiais para Download</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#$">Colabore</a></li>
+                <li><a href="index.html#contato">Contato</a></li>
+            </ul>
+        </nav>
+        
+        <header id="header">
+            <h1>Pergaminhos&Grimórios</h1>
+            <a href="index.html"><img src="d20-3.png" alt="Logo" id="logo"></a>
+            <a href="index2.html"><Button id="carrinho"><img src="compras.png" id="img"></Button></a>
+        </header>
+    
+        <section id="acessorios">
+            <br><br><br><br><br><br><br>    
+            <h2>Acessórios</h2>
+            <div id="principal">
+                <div class="item">
+                    <img src="acessório-barreiradomestre-228,36.webp" alt="Barreira do Mestre D&D">
+                    <p  class="legenda" data-preco="229,00">Barreira do Mestre D&D<br>R$229,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Barreira do Mestre D&D" 
+                    data-preco="229,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                <br>
+                <div class="item">
+                    <img src="acessório-barreiradomestre-74,50.jpg" alt="Barreira do Mestre">
+                    <p  class="legenda" data-preco="75,00">Barreira do Mestre<br>R$75,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Barreira do Mestre" 
+                    data-preco="75,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                <br>
+                <div class="item">
+                    <img src="acessório-kitdados-30,00.webp" alt="Kit Dados Peroládos">
+                    <p  class="legenda" data-preco="30,00">Kit Dados Peroládos<br>R$30,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Kit Dados Peroládos" 
+                    data-preco="30,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                <br>
+                <div class="item">
+                    <img src="acessório-kitdados-35,00.webp" alt="5 Kits de Dados">
+                    <p  class="legenda" data-preco="175,00">5 Kits de Dados<br>R$175,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="5 Kits de Dados" 
+                    data-preco="175,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                <br>
+                <div class="item">
+                    <img src="acessório-MuralhadoMestre-140,00.webp" alt="Muralha do Mestre">
+                    <p  class="legenda" data-preco="140,00">Muralha do Mestre<br>R$140,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Muralha do Mestre" 
+                    data-preco="140,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                <br>
+                <div class="item">
+                    <img src="acessório-portadados-211,70.webp" alt="Porta Dados">
+                    <p  class="legenda" data-preco="211,00">Porta Dados<br>R$211,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Porta Dados" 
+                    data-preco="211,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                <br>
+                <div class="item">
+                    <img src="acessório-torrededados-54,15.webp" alt="Torre de Dados Senhor dos Anéis">
+                    <p  class="legenda" data-preco="75,00">Torre de Dados Senhor do Anéis<br>R$75,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Torre de Dados Senhor dos Anéis" 
+                    data-preco="75,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                <br>   
+                <div class="item">
+                    <img src="acessório-torrededados-77,99.webp" alt="Torre de Dados">
+                    <p  class="legenda" data-preco="54,00">Torre de Dados<br>R$54,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Torre de Dados" 
+                    data-preco="54,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                <br>
+                <div class="item">
+                    <img src="acessórios-kit126tokens-69,99.webp" alt="Kit 126 Tokens">
+                    <p  class="legenda" data-preco="70,00">Kit 126 Tokens<br>R$70,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Kit 126 Tokens"
+                    data-preco="70,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+            </div>
+        </section>
+        <br><br>
+
+    <footer id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco através dos nossos canais:</p>
+        <p>Gmail: pergaminhosegrimorios@gmail.com</p>                
+        <p>Whatsapp: (34)99876-3326</p>
+        <p>Instagram: @pergaminhosegrimorios</p>
+    </footer>
+    
+    </body>
+</html>

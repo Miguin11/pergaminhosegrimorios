@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Pergaminhos&Grimórios</title>
+        
+        <link rel="icon" href="d20-2.png" type="image/png">
+        
+        <link rel="stylesheet" href="style.css">
+        
+        <script src="script.js"></script>
+        
+        <style>
+            #logo {
+                background-color: #f3f3f3d7;
+                border-radius: 10px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <button id="menuBtn" class="menu-btn">☰</button>
+        
+        <nav id="menu" class="menu">
+            <ul>
+                <li><a href="index.html#des">Destaques</a></li>
+                <li>
+                    <a href="index.html#des">Produtos</a>
+                    <ul class="submenu">
+                        <li><a href="index3.html">Livros</a></li>
+                        <li><a href="index4.html#jogos">RPGs</a></li>
+                        <li><a href="index5.html#acessorios">Acessórios</a></li>
+                        <li><a href="index6.html#download">Materiais para Download</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#$">Colabore</a></li>
+                <li><a href="index.html#contato">Contato</a></li>
+            </ul>
+        </nav>
+        
+        <header id="header">
+            <h1>Pergaminhos&Grimórios</h1>
+            <a href="index.html"><img src="d20-3.png" alt="Logo" id="logo"></a>
+            <a href="index2.html"><Button id="carrinho"><img src="compras.png" id="img"></Button></a>
+        </header>
+    
+        <section id="jogos">
+            <br><br><br><br><br><br><br>    
+            <h2>RPGs</h2>
+                <div id="principal">
+                <div class="item">
+                    <img src="rpg-baralho-tormenta-54,00.webp" alt="Baralho de Personagens do RPG Tormenta 20">
+                    <p  class="legenda" data-preco="54,00">Baralho de Personagens do RPG Tormenta 20<br>R$54,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Baralho de Personagens do RPG Tormenta 20" 
+                    data-preco="54,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                <br>
+                <div class="item">
+                    <img src="rpg-baralho-tormenta-aventure-54,00.jpg" alt="Baralho de Aventuras do RPG Tormenta 20">
+                    <p  class="legenda" data-preco="54,00">Baralho de Aventuras do RPG Tormenta 20<br>R$54,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Baralho de Aventuras do RPG Tormenta 20" 
+                    data-preco="54,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                <br>
+                <div class="item">
+                    <img src="rpg-baralho-tormenta-3.webp" alt="Baralho de Poderes do RPG Tormenta 20">
+                    <p  class="legenda" data-preco="54,00">Baralho de Poderes do RPG Tormenta 20<br>R$54,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Baralho de Poderes do RPG Tormenta 20" 
+                    data-preco="54,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                <br>
+                <div class="item">
+                    <img src="rpg-d&d-BedlaminNeverwinter-451,28.webp" alt="Bedlam in Neverwinter">
+                    <p  class="legenda" data-preco="451,00">Bedlam in Neverwinter<br>R$451,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Bedlam in Neverwinter" 
+                    data-preco="451,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                <br>
+                <div class="item">
+                    <img src="rpg-d&d-LegendofDrizzt-596,11.webp" alt="Legend of Drizzt">
+                    <p  class="legenda" data-preco="596,00">Legend of Drizzt<br>R$596,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Legend of Drizzt" 
+                    data-preco="596,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                <br>
+                <div class="item">
+                    <img src="rpg-paranormal-69,90.webp" alt="Ordem Paranormal">
+                    <p  class="legenda" data-preco="69,00">Ordem Paranormal<br>R$69,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Ordem Paranormal RPG" 
+                    data-preco="69,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+                <br>
+                <div class="item">
+                    <img src="rpg-tormenta20-70,90.webp" alt="Tormenta 20 RPG">
+                    <p  class="legenda" data-preco="70,00">Tormenta 20 RPG<br>R$70,00</p>
+                    <button class="btn-carrinho" 
+                    data-nome="Tormenta 20 RPG" 
+                    data-preco="70,00" 
+                    onclick="adicionarCarrinho(this)">
+                    Adicionar ao Carrinho
+                    </button>
+                </div>
+        </section>
+
+        <br><br>
+
+    <footer id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco através dos nossos canais:</p>
+        <p>Gmail: pergaminhosegrimorios@gmail.com</p>                
+        <p>Whatsapp: (34)99876-3326</p>
+        <p>Instagram: @pergaminhosegrimorios</p>
+    </footer>
+
+        </body>
+</html>
